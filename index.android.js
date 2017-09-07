@@ -9,7 +9,7 @@ import Header from './src/components/header';
 //Create a Component, it's a function
 //which returns JSX
 const App = () => (
-    <Header />
+    <Header headerText={'Albums'} />
 );
 
 //Render the Component
